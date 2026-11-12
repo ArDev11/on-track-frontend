@@ -1,0 +1,64 @@
+/* Token dari Figma, halaman "01 · Foundations". Nama mengikuti token Figma: bg/surface -> --bg-surface. */
+:root {
+  /* Warna */
+  --bg-surface: #ffffff;
+  --bg-canvas: #f5f5f4;
+  --bg-inverse: #0a0a0a;
+  --bg-inverse-hover: #1f1f1f;
+  --bg-hover: #f5f5f4;
+  --bg-disabled: #e7e7e5;
+  --text-primary: #0a0a0a;
+  --text-secondary: #666666;
+  --text-accent: #3f5f00;
+  --text-disabled: #858583;
+  --accent-default: #c6f135;
+  --accent-hover: #b2dc22;
+  --accent-subtle: #f1fbd6;
+  --border-default: #e7e7e5;
+  --border-strong: #d4d4d2;
+  --border-control: #858583;
+  --status-success-fg: #3f5f00;
+  --status-warning-fg: #8a5a00;
+  --status-danger-fg: #b42318;
+  --status-danger-hover: #912018;
+
+  /* SEMENTARA: latar peringatan terlihat di layar W25/W23, tetapi tidak ada di daftar token. */
+  --status-warning-bg: #fff1db;
+  --status-danger-bg: #fde8e6;
+
+  /* Spasi */
+  --space-4: 4px;
+  --space-8: 8px;
+  --space-12: 12px;
+  --space-16: 16px;
+  --space-20: 20px;
+  --space-24: 24px;
+  --space-32: 32px;
+  --space-40: 40px;
+  --space-48: 48px;
+  --space-64: 64px;
+
+  /* SEMENTARA: Figma hanya menampilkan nama radius; nilainya perkiraan dari gambar. */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-full: 9999px;
+
+  /* Tipografi: ukuran / tinggi baris, keluarga Inter */
+  --font-sans: var(--font-inter), system-ui, sans-serif;
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600;
+  --weight-bold: 700;
+  --size-numeric-clock: 48px;
+  --size-display-l: 40px;
+  --size-numeric-kpi: 32px;
+  --size-h1: 28px;
+  --size-h2: 20px;
+  --size-h3: 16px;
+  --size-body-m: 16px;
+  --size-body-s: 14px;
+  --size-label-m: 14px;
+  --size-label-s: 12px;
+  --size-caption: 12px;
+}
